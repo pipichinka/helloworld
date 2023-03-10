@@ -3,11 +3,11 @@ package ru.nsu.Sirotkin.lab1003.task1.model;
 import java.util.Stack;
 
 public class Storage <T> {
-    final Stack<T> list;
+    private final Stack<T> list;
 
-    final int capacity;
+    private final int capacity;
 
-    int currentIndex;
+    private int currentIndex;
 
 
     public Storage(int maxCapacity) {
@@ -37,8 +37,8 @@ public class Storage <T> {
             }
             list.push(product);
             list.notifyAll();
+            currentIndex++;
         }
-        currentIndex++;
     }
 
     public synchronized boolean isFull(){
