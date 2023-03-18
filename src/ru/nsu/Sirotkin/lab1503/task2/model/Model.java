@@ -23,15 +23,19 @@ public class Model {
         this.player = player;
         records = new HashMap<>();
         try (var stream = new BufferedReader(new FileReader(recordFile))) {
-            while (stream.ready()){
-                String[] lineParts = stream.readLine().split(" ");
+            while (true){
+                String currentLine = stream.readLine();
+                if (currentLine == null){
+                    break;
+                }
+                String[] lineParts = currentLine.split(" ");
                 if (lineParts.length != 2){
-                    throw new RuntimeException("invalid record file");
+                    throw new RuntimeException("invalid record file" + recordFile);
                 }
                 records.put(lineParts[0], Integer.parseInt(lineParts[1]));
             }
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
+        } catch (IOException ignored) {
+
         }
         if (!records.containsKey(player)){
             records.put(player, 0);
