@@ -3,9 +3,16 @@ package ru.nsu.Sirotkin.task1.operations;
 
 import ru.nsu.Sirotkin.task1.context.Context;
 
+import java.security.InvalidParameterException;
+
 public class OperationPush implements Operation {
     @Override
     public String perfomOperation(Context context, String[] params) {
-        return null;
+        if (context == null || params == null){
+            throw new InvalidParameterException("null pointers");
+        }
+        Double[] parameters = ParameterSolver.solveParameters(context,params,1);
+        context.pushToStack(parameters[0]);
+        return "pushed to stack " + parameters[0];
     }
 }

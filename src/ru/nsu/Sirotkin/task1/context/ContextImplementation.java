@@ -38,6 +38,14 @@ public class ContextImplementation implements Context {
     public Double getDefine(String defineKey){
         return defineMap.getOrDefault(defineKey,null);
     }
-    
+
+    @Override
+    public Double peekFromStack() {
+        if (valuesStack.empty()){
+            return null;
+        }
+        return valuesStack.peek();
+    }
+
 
 }

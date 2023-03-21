@@ -12,4 +12,6 @@ public interface Context {
 
     Double getDefine(String defineKey);
 
+
+    Double peekFromStack();
 }
