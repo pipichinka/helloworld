@@ -1,6 +1,7 @@
 package ru.nsu.Sirotkin.lab1503.task2.view;
 
 import ru.nsu.Sirotkin.lab1503.task2.model.Model;
+import ru.nsu.Sirotkin.lab1503.task2.model.ModelListener;
 import ru.nsu.Sirotkin.lab1503.task2.model.StatesOfGame;
 
 public class View implements ModelListener {

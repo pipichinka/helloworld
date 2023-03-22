@@ -2,7 +2,7 @@ package ru.nsu.Sirotkin.lab2203.task2.view;
 
 import ru.nsu.Sirotkin.lab1503.task2.model.Model;
 import ru.nsu.Sirotkin.lab1503.task2.model.StatesOfGame;
-import ru.nsu.Sirotkin.lab1503.task2.view.ModelListener;
+import ru.nsu.Sirotkin.lab1503.task2.model.ModelListener;
 
 import javax.swing.*;
 

@@ -2,7 +2,7 @@ package ru.nsu.Sirotkin.lab1503.task2.main;
 
 import ru.nsu.Sirotkin.lab1503.task2.controller.Controller;
 import ru.nsu.Sirotkin.lab1503.task2.model.Model;
-import ru.nsu.Sirotkin.lab1503.task2.view.ModelListener;
+import ru.nsu.Sirotkin.lab1503.task2.model.ModelListener;
 import ru.nsu.Sirotkin.lab1503.task2.view.View;
 
 import java.util.Scanner;

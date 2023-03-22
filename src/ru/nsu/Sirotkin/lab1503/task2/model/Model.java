@@ -1,7 +1,5 @@
 package ru.nsu.Sirotkin.lab1503.task2.model;
 
-import ru.nsu.Sirotkin.lab1503.task2.view.ModelListener;
-
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
