@@ -1,10 +1,11 @@
 package ru.nsu.Sirotkin.task1.operations;
 
 import ru.nsu.Sirotkin.task1.context.Context;
+import ru.nsu.Sirotkin.task1.factory.Operation;
 
 import java.security.InvalidParameterException;
 
-class OperationMinus implements Operation{
+class OperationMinus implements Operation {
 
     @Override
     public String perfomOperation(Context context, String[] params) {

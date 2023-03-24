@@ -1,4 +1,4 @@
-package ru.nsu.Sirotkin.task1.operations;
+package ru.nsu.Sirotkin.task1.factory;
 
 import ru.nsu.Sirotkin.task1.context.Context;
 

@@ -1,0 +1,9 @@
++ ru.nsu.Sirotkin.task1.operations.OperationPlus
+- ru.nsu.Sirotkin.task1.operations.OperationMinus
+/ ru.nsu.Sirotkin.task1.operations.OperationDivision
+* ru.nsu.Sirotkin.task1.operations.OperationMultiply
+SQRT ru.nsu.Sirotkin.task1.operations.OperationSQRT
+POP ru.nsu.Sirotkin.task1.operations.OperationPop
+PUSH ru.nsu.Sirotkin.task1.operations.OperationPush
+DEFINE ru.nsu.Sirotkin.task1.operations.OperationDefine
+PRINT ru.nsu.Sirotkin.task1.operations.OperationPrint
