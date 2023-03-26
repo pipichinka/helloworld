@@ -31,11 +31,10 @@ public class CalculatorModel {
     }
 
 
-    public void start(){
+    public void start() throws BaseException {
         while (true){
             String currentCommandLine = commandStream.readLine();
             if (currentCommandLine == null){
-                System.out.println("No more commands");
                 return;
             }
             if (currentCommandLine.startsWith("#")){

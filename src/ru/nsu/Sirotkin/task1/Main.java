@@ -8,13 +8,30 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        CalcInputStream inputStream = new CalcInputStream() {
-            private final Scanner scanner= new Scanner(System.in);
-            @Override
-            public String readLine() {
-                return scanner.nextLine();
+        CalcInputStream inputStream;
+        if (args.length == 0){
+            inputStream = new CalcInputStream() {
+                private final Scanner scanner= new Scanner(System.in);
+                @Override
+                public String readLine() {
+                    return scanner.nextLine();
+                }
+            };
+        }
+        else if (args.length == 1) {
+            try {
+                inputStream = new FileInputStream(args[0]);
+            } catch (BaseException e) {
+                System.err.println(e.getMessage());
+                return;
             }
-        };
+        }
+        else{
+            System.err.println("too many args given");
+            return;
+        }
+
+
         try {
             CalculatorModel model = new CalculatorModel(inputStream);
             model.start();
