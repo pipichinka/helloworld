@@ -11,16 +11,22 @@ public class OperationSQRT implements Operation {
     private final Double[] operands = new Double[1];
 
 
+    private Double result;
+
+
     @Override
     public void performOperation(Context context, String[] params) throws OperationException {
         ParameterSolver.solveParameters(context, params, operands);
-        context.pushToStack(Math.sqrt(operands[0]));
+        result = Math.sqrt(operands[0]);
+        context.pushToStack(result);
     }
+
 
     @Override
     public String name() {
         return "operation SQRT";
     }
+
 
     @Override
     public String[] lastOperands() {
@@ -29,8 +35,9 @@ public class OperationSQRT implements Operation {
         return result;
     }
 
+
     @Override
     public String lastResult() {
-        return null;
+        return result.toString();
     }
 }

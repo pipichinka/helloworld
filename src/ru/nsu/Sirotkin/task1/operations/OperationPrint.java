@@ -23,18 +23,21 @@ public class OperationPrint implements Operation {
         System.out.println(printValue);
     }
 
+
     @Override
     public String name() {
         return "operation Print";
     }
+
 
     @Override
     public String[] lastOperands() {
         return new String[0];
     }
 
+
     @Override
     public String lastResult() {
-        return printValue + "was printed in console";
+        return printValue + " was printed in console";
     }
 }

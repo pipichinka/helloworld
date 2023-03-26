@@ -22,15 +22,18 @@ public class OperationPop implements Operation {
         }
     }
 
+
     @Override
     public String name() {
         return "operation Pop";
     }
 
+
     @Override
     public String[] lastOperands() {
         return new String[0];
     }
+
 
     @Override
     public String lastResult() {

@@ -5,6 +5,8 @@ import java.util.Map;
 import java.util.Stack;
 
 public class ContextImplementation implements Context {
+
+
     private final Map<String, Double> defineMap;
 
 
@@ -46,6 +48,5 @@ public class ContextImplementation implements Context {
         }
         return valuesStack.peek();
     }
-
 
 }

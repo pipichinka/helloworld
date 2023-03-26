@@ -9,12 +9,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileInputStream implements CalcInputStream {
+public class FileCalcInputStream implements CalcInputStream {
+
 
     private final BufferedReader stream;
 
 
-    public FileInputStream(String fileName) throws BaseException {
+    public FileCalcInputStream(String fileName) throws BaseException {
         try {
             stream = new BufferedReader(new FileReader(fileName));
         }

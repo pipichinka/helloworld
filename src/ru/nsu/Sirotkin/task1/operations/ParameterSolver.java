@@ -4,8 +4,9 @@ import ru.nsu.Sirotkin.task1.context.Context;
 import ru.nsu.Sirotkin.task1.exceptions.OperationException;
 
 class ParameterSolver {
-    static void solveParameters(Context context, String[] params, Double[] operands) throws OperationException{
 
+
+    static void solveParameters(Context context, String[] params, Double[] operands) throws OperationException{
         for (int i = 0; i < operands.length; i++){
             if (i < params.length){
                 try {
@@ -26,4 +27,6 @@ class ParameterSolver {
             }
         }
     }
+
+
 }

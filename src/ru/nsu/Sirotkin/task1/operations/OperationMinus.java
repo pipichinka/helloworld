@@ -7,6 +7,7 @@ import ru.nsu.Sirotkin.task1.factory.Operation;
 
 public class OperationMinus implements Operation {
 
+
     private final Double[] operands = new Double[2];
 
 
@@ -16,10 +17,12 @@ public class OperationMinus implements Operation {
         context.pushToStack(operands[0] - operands[1]);
     }
 
+
     @Override
     public String name() {
         return "operation Minus";
     }
+
 
     @Override
     public String[] lastOperands() {
@@ -28,6 +31,7 @@ public class OperationMinus implements Operation {
         result[1] = operands[1].toString();
         return result;
     }
+
 
     @Override
     public String lastResult() {

@@ -17,10 +17,12 @@ public class OperationMultiply implements Operation {
         context.pushToStack(operands[0] * operands[1]);
     }
 
+
     @Override
     public String name() {
         return "operation Multiply";
     }
+
 
     @Override
     public String[] lastOperands() {
@@ -29,6 +31,7 @@ public class OperationMultiply implements Operation {
         result[1] = operands[1].toString();
         return result;
     }
+
 
     @Override
     public String lastResult() {

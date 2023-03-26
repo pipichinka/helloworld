@@ -5,4 +5,11 @@ SQRT
 + a
 PUSH 35
 +
+POP
+POP
+POP
+POP
+ebu
+eruo
+eviov
 PRINT

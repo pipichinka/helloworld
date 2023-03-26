@@ -20,10 +20,12 @@ public class OperationPush implements Operation {
         context.pushToStack(operands[0]);
     }
 
+
     @Override
     public String name() {
         return "operation Push";
     }
+
 
     @Override
     public String[] lastOperands() {
@@ -31,6 +33,7 @@ public class OperationPush implements Operation {
         result[0] = operands[0].toString();
         return result;
     }
+
 
     @Override
     public String lastResult() {

@@ -1,0 +1,42 @@
+мар. 26, 2023 3:01:13 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Print with no operands.Ended with result: 47.0 was printed in console
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Push with 4.0 operand.Ended with result: 4.0 was pushed to stack
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation SQRT with 4.0 operand.Ended with result: 2.0
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Plus with 4.0 and 4.0 operands. Ended with result: 8.0
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Plus with 4.0 and 8.0 operands. Ended with result: 12.0
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Push with 35.0 operand.Ended with result: 35.0 was pushed to stack
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Plus with 35.0 and 12.0 operands. Ended with result: 47.0
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Pop with no operands.Ended with result: 47.0 was taken from stack
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Pop with no operands.Ended with result: 2.0 was taken from stack
+
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
+WARNING: stack is empty
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
+WARNING: stack is empty
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
+WARNING: no such operation ebu
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
+WARNING: no such operation eruo
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
+WARNING: no such operation eviov
+мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
+WARNING: empty stack

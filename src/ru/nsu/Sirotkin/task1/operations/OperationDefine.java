@@ -7,9 +7,12 @@ import ru.nsu.Sirotkin.task1.factory.Operation;
 
 public class OperationDefine implements Operation {
 
+
     private String operand1;
 
+
     private Double operand2;
+
 
 @Override
     public void performOperation(Context context, String[] params) throws OperationException {
@@ -36,10 +39,12 @@ public class OperationDefine implements Operation {
         context.setDefine(params[0], operand2);
     }
 
+
     @Override
     public String name() {
         return "operation Define";
     }
+
 
     @Override
     public String[] lastOperands() {
@@ -48,6 +53,7 @@ public class OperationDefine implements Operation {
         result[1] = operand2.toString();
         return result;
     }
+
 
     @Override
     public String lastResult() {

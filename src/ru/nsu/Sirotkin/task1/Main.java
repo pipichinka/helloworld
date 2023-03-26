@@ -3,10 +3,12 @@ package ru.nsu.Sirotkin.task1;
 import ru.nsu.Sirotkin.task1.calc.CalcInputStream;
 import ru.nsu.Sirotkin.task1.calc.CalculatorModel;
 import ru.nsu.Sirotkin.task1.exceptions.BaseException;
-
 import java.util.Scanner;
 
+
 public class Main {
+
+
     public static void main(String[] args) {
         CalcInputStream inputStream;
         if (args.length == 0){
@@ -20,7 +22,7 @@ public class Main {
         }
         else if (args.length == 1) {
             try {
-                inputStream = new FileInputStream(args[0]);
+                inputStream = new FileCalcInputStream(args[0]);
             } catch (BaseException e) {
                 System.err.println(e.getMessage());
                 return;
@@ -39,8 +41,5 @@ public class Main {
         catch (BaseException e){
             System.err.println(e.getMessage());
         }
-
-
-
     }
 }
