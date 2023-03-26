@@ -1,31 +1,29 @@
 package ru.nsu.Sirotkin.task1.operations;
 
 import ru.nsu.Sirotkin.task1.context.Context;
+import ru.nsu.Sirotkin.task1.exceptions.OperationException;
 
 class ParameterSolver {
-    static Double[] solveParameters(Context context, String[] params, int numberOfParameters){
-        Double[] result = new Double[numberOfParameters];
+    static void solveParameters(Context context, String[] params, Double[] operands) throws OperationException{
 
-        for (int i = 0; i < numberOfParameters; i++){
-            if (params.length <= i + 1){
+        for (int i = 0; i < operands.length; i++){
+            if (i < params.length){
                 try {
-                    result[i] = Double.parseDouble(params[i]);
+                    operands[i] = Double.parseDouble(params[i]);
                 }
                 catch (NumberFormatException e){
-                    result[i] = context.getDefine(params[i]);
-                    if (result[i] == null){
-                        throw new RuntimeException("no such define: " + params[i]);
+                    operands[i] = context.getDefine(params[i]);
+                    if (operands[i] == null){
+                        throw new OperationException("no such define: " + params[i]);
                     }
                 }
             }
             else{
-                result[i] = context.getFromStack();
-                if (result[i] == null){
-                    throw new RuntimeException("stack is empty during parsing argument" + (i+1));
+                operands[i] = context.getFromStack();
+                if (operands[i] == null){
+                    throw new OperationException("stack is empty during parsing argument" + (i+1));
                 }
             }
         }
-
-        return result;
     }
 }

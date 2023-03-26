@@ -1,5 +1,9 @@
 package ru.nsu.Sirotkin.task1.factory;
 
+import ru.nsu.Sirotkin.task1.exceptions.FactoryConfigException;
+import ru.nsu.Sirotkin.task1.exceptions.OperationCreatingException;
+import ru.nsu.Sirotkin.task1.exceptions.OperationException;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
@@ -11,28 +15,25 @@ public class OperationsFactory {
     private final Map<String, String> classNamesmap;
 
 
-    private final String fileName= "factory.cnf";
+    private static final String FILE_NAME = "factory.cnf";
 
 
     private final Map<String, Operation> classesMap;
 
 
-    public OperationsFactory(){
+    public OperationsFactory() throws FactoryConfigException{
         classNamesmap = new HashMap<>();
         classesMap = new HashMap<>();
-        try (InputStream stream = OperationsFactory.class.getResourceAsStream(fileName)){
+        try (InputStream stream = OperationsFactory.class.getResourceAsStream(FILE_NAME)){
             if (stream == null){
-                throw new RuntimeException("can't open factory config file");
+                throw new FactoryConfigException("can't open factory config file");
             }
             Scanner scanner = new Scanner(stream);
-            while (true){
+            while (scanner.hasNext()) {
                 String currentLine = scanner.nextLine();
-                if (currentLine == null){
-                    break;
-                }
                 String[] currentLineSplited = currentLine.split(" ");
-                if (currentLineSplited.length != 2){
-                    throw new RuntimeException("invalid factory config file");
+                if (currentLineSplited.length != 2) {
+                    throw new FactoryConfigException("invalid factory config file");
                 }
                 classNamesmap.put(currentLineSplited[0], currentLineSplited[1]);
             }
@@ -43,22 +44,22 @@ public class OperationsFactory {
     }
 
 
-    public Operation getOperation(String name) {
+    public Operation getOperation(String name) throws OperationException {
         if (classesMap.containsKey(name)){
             return classesMap.get(name);
         }
         if (!classNamesmap.containsKey(name)){
-            throw new RuntimeException("no such operation " + name);
+            throw new OperationException("no such operation " + name);
         }
         try {
-            Class<?> operationClass = Class.forName(name);
+            Class<?> operationClass = Class.forName(classNamesmap.get(name));
             var constructor = operationClass.getConstructor();
             Operation result = (Operation) constructor.newInstance();
             classesMap.put(name, result);
             return result;
         } catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException | InstantiationException |
                  IllegalAccessException e) {
-            throw new RuntimeException(e);
+            throw new OperationCreatingException(e);
         }
     }
 
