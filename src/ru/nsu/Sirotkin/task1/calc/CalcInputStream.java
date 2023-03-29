@@ -1,11 +1,11 @@
 package ru.nsu.Sirotkin.task1.calc;
 
 
-import ru.nsu.Sirotkin.task1.exceptions.BaseException;
+import java.io.IOException;
 
 public interface CalcInputStream {
 
 
-    String readLine() throws BaseException;
+    String readLine() throws IOException;
 
 }

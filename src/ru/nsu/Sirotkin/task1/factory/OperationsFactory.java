@@ -47,17 +47,18 @@ public class OperationsFactory {
 
 
     public Operation getOperation(String name) throws OperationException {
-        if (classesMap.containsKey(name)){
-            return classesMap.get(name);
+        String operationName = name.toUpperCase();
+        if (classesMap.containsKey(operationName)){
+            return classesMap.get(operationName);
         }
-        if (!classNamesmap.containsKey(name)){
-            throw new OperationException("no such operation " + name);
+        if (!classNamesmap.containsKey(operationName)){
+            throw new OperationException("no such operation " + operationName);
         }
         try {
-            Class<?> operationClass = Class.forName(classNamesmap.get(name));
+            Class<?> operationClass = Class.forName(classNamesmap.get(operationName));
             var constructor = operationClass.getConstructor();
             Operation result = (Operation) constructor.newInstance();
-            classesMap.put(name, result);
+            classesMap.put(operationName, result);
             return result;
         } catch (ClassNotFoundException | NoSuchMethodException | InvocationTargetException | InstantiationException |
                  IllegalAccessException e) {
@@ -66,6 +67,18 @@ public class OperationsFactory {
     }
 
 
-
+    public String[] getOperationsNames() throws OperationException {
+        try {
+            var keys = classNamesmap.keySet().toArray();
+            String[] result = new String[keys.length];
+            for (int i = 0; i < result.length; i++){
+                result[i] =(String) keys[i];
+            }
+            return result;
+        }
+        catch (ClassCastException e){
+            throw new OperationException(e);
+        }
+    }
 
 }

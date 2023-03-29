@@ -39,4 +39,12 @@ public class OperationPush implements Operation {
     public String lastResult() {
         return operands[0].toString() + " was pushed to stack";
     }
+
+    @Override
+    public String getHelpString() {
+        return """
+                Operation Push is used to put operand into stack
+                operand should be define value or number
+                """;
+    }
 }

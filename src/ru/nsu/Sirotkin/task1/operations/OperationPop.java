@@ -39,4 +39,12 @@ public class OperationPop implements Operation {
     public String lastResult() {
         return popValue.toString() + " was taken from stack";
     }
+
+    @Override
+    public String getHelpString() {
+        return """
+                Operation Pop is used to take value from the stack
+                No operands should be given to this operation
+                """;
+    }
 }

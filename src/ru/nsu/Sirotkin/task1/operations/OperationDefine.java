@@ -59,4 +59,14 @@ public class OperationDefine implements Operation {
     public String lastResult() {
         return "value " + operand2.toString() + " was defined as " + operand1;
     }
+
+
+    @Override
+    public String getHelpString() {
+        return """
+                Operation Define is used to give a name to parameter.
+                name should be a string that can't be interpreted as number
+                parameter should be a number
+                """;
+    }
 }

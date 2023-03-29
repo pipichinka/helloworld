@@ -1,37 +1,29 @@
 package ru.nsu.Sirotkin.task1;
 
 import ru.nsu.Sirotkin.task1.calc.CalcInputStream;
-import ru.nsu.Sirotkin.task1.exceptions.BaseException;
-import ru.nsu.Sirotkin.task1.exceptions.FileException;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
-public class FileCalcInputStream implements CalcInputStream {
+public class FileCalcInputStream implements CalcInputStream, Closeable {
 
 
     private final BufferedReader stream;
 
 
-    public FileCalcInputStream(String fileName) throws BaseException {
-        try {
-            stream = new BufferedReader(new FileReader(fileName));
-        }
-        catch (FileNotFoundException e){
-            throw new FileException(e);
-        }
+    public FileCalcInputStream(String fileName) throws IOException {
+        stream = new BufferedReader(new FileReader(fileName));
     }
 
 
     @Override
-    public String readLine() throws BaseException {
-        try {
-            return stream.readLine();
-        }
-        catch (IOException e){
-            throw new FileException(e);
-        }
+    public String readLine() throws IOException {
+
+        return stream.readLine();
+
+    }
+
+    @Override
+    public void close() throws IOException {
+        stream.close();
     }
 }

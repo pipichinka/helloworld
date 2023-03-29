@@ -37,4 +37,15 @@ public class OperationPlus implements Operation {
     public String lastResult() {
         return Double.toString(operands[0] + operands[1]);
     }
+
+    @Override
+    public String getHelpString() {
+        return """
+                Operation Plus is used to plus two numbers
+                this operation gets up to two operands
+                operands can be define values or numbers
+                if given less operands than two uses values from stack
+                result is pushed to stack
+                """;
+    }
 }

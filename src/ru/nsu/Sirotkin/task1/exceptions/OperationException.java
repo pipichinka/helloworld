@@ -8,4 +8,8 @@ public class OperationException extends BaseException{
         super(massage);
     }
 
+
+    public OperationException(Exception e) {
+        super(e);
+    }
 }

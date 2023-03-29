@@ -40,4 +40,14 @@ public class OperationSQRT implements Operation {
     public String lastResult() {
         return result.toString();
     }
+
+    @Override
+    public String getHelpString() {
+        return """
+                Operation SQRT is used to take a square root from a number
+                this operation gets up to one operands
+                if given zero operands, uses value from stack
+                result is pushed to stack
+                """;
+    }
 }

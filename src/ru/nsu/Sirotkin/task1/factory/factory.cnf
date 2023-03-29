@@ -7,3 +7,5 @@ POP ru.nsu.Sirotkin.task1.operations.OperationPop
 PUSH ru.nsu.Sirotkin.task1.operations.OperationPush
 DEFINE ru.nsu.Sirotkin.task1.operations.OperationDefine
 PRINT ru.nsu.Sirotkin.task1.operations.OperationPrint
+HELP ru.nsu.Sirotkin.task1.operations.OperationHelp
+EXIT ru.nsu.Sirotkin.task1.operations.OperationExit

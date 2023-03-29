@@ -7,6 +7,8 @@ import ru.nsu.Sirotkin.task1.exceptions.FactoryConfigException;
 import ru.nsu.Sirotkin.task1.exceptions.OperationException;
 import ru.nsu.Sirotkin.task1.factory.Operation;
 import ru.nsu.Sirotkin.task1.factory.OperationsFactory;
+
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.LogManager;
@@ -61,7 +63,7 @@ public class CalculatorModel {
     }
 
 
-    public void start() throws BaseException {
+    public void start() throws BaseException, IOException {
         while (true){
             String currentCommandLine = commandStream.readLine();
             if (currentCommandLine == null){
@@ -69,9 +71,6 @@ public class CalculatorModel {
             }
             if (currentCommandLine.startsWith("#")){
                 continue;
-            }
-            if (currentCommandLine.equals("EXIT")){
-                return;
             }
 
             String[] currentCommandLineSplit = currentCommandLine.split(" ");

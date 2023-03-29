@@ -14,5 +14,4 @@ public interface Context {
 
 
     Double peekFromStack();
-
 }

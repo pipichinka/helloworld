@@ -1,50 +1,38 @@
 package ru.nsu.Sirotkin.task1.operations;
 
 import ru.nsu.Sirotkin.task1.context.Context;
+import ru.nsu.Sirotkin.task1.exceptions.BaseException;
 import ru.nsu.Sirotkin.task1.exceptions.OperationException;
 import ru.nsu.Sirotkin.task1.factory.Operation;
 
-
-public class OperationPrint implements Operation {
-
-
-    private Double printValue;
-
-
+public class OperationExit implements Operation {
     @Override
-    public void performOperation(Context context, String[] params) throws OperationException {
+    public void performOperation(Context context, String[] params) throws BaseException {
         if (params.length != 0){
-            throw new OperationException("PRINT does not require operands");
+            throw new OperationException("Exit does not require operands");
         }
-        printValue = context.peekFromStack();
-        if ( printValue == null){
-            throw new OperationException("empty stack");
-        }
-        System.out.println(printValue);
+        throw new BaseException("Bye");
     }
-
 
     @Override
     public String name() {
-        return "operation Print";
+        return "operation Exit";
     }
-
 
     @Override
     public String[] lastOperands() {
         return new String[0];
     }
 
-
     @Override
     public String lastResult() {
-        return printValue + " was printed in console";
+        return null;
     }
 
     @Override
     public String getHelpString() {
         return """
-                Operation Print is used to print head of the stack
+                Operation Exit is used to close app
                 No operands should be given to this operation
                 """;
     }

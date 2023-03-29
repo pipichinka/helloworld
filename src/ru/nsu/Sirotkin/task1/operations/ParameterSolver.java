@@ -3,10 +3,13 @@ package ru.nsu.Sirotkin.task1.operations;
 import ru.nsu.Sirotkin.task1.context.Context;
 import ru.nsu.Sirotkin.task1.exceptions.OperationException;
 
-class ParameterSolver {
+public class ParameterSolver {
 
 
-    static void solveParameters(Context context, String[] params, Double[] operands) throws OperationException{
+    public static void solveParameters(Context context, String[] params, Double[] operands) throws OperationException{
+        if (operands.length < params.length){
+            throw new OperationException("invalid number of arguments");
+        }
         for (int i = 0; i < operands.length; i++){
             if (i < params.length){
                 try {
