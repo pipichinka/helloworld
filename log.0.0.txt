@@ -1,301 +1,42 @@
-мар. 26, 2023 3:01:13 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: 47.0 was printed in console
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 4.0 operand.Ended with result: 4.0 was pushed to stack
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation SQRT with 4.0 operand.Ended with result: 2.0
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 4.0 operands. Ended with result: 8.0
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 8.0 operands. Ended with result: 12.0
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 35.0 operand.Ended with result: 35.0 was pushed to stack
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 35.0 and 12.0 operands. Ended with result: 47.0
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 47.0 was taken from stack
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 2.0 was taken from stack
-
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation ebu
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eruo
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eviov
-мар. 26, 2023 3:01:49 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: empty stack
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 4.0 operand.Ended with result: 4.0 was pushed to stack
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation SQRT with 4.0 operand.Ended with result: 2.0
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 4.0 operands. Ended with result: 8.0
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 8.0 operands. Ended with result: 12.0
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 35.0 operand.Ended with result: 35.0 was pushed to stack
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 35.0 and 12.0 operands. Ended with result: 47.0
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 47.0 was taken from stack
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 2.0 was taken from stack
-
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation ebu
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eruo
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eviov
-мар. 28, 2023 2:40:03 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: empty stack
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 4.0 operand.Ended with result: 4.0 was pushed to stack
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation SQRT with 4.0 operand.Ended with result: 2.0
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 4.0 operands. Ended with result: 8.0
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 8.0 operands. Ended with result: 12.0
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 35.0 operand.Ended with result: 35.0 was pushed to stack
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 35.0 and 12.0 operands. Ended with result: 47.0
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 47.0 was taken from stack
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 2.0 was taken from stack
-
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation ebu
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eruo
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eviov
-мар. 28, 2023 2:42:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: empty stack
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 4.0 operand.Ended with result: 4.0 was pushed to stack
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation SQRT with 4.0 operand.Ended with result: 2.0
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 4.0 operands. Ended with result: 8.0
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 8.0 operands. Ended with result: 12.0
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 35.0 operand.Ended with result: 35.0 was pushed to stack
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 35.0 and 12.0 operands. Ended with result: 47.0
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 47.0 was taken from stack
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 2.0 was taken from stack
-
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation ebu
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eruo
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eviov
-мар. 28, 2023 3:02:47 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: empty stack
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 4.0 operand.Ended with result: 4.0 was pushed to stack
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation SQRT with 4.0 operand.Ended with result: 2.0
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 4.0 operands. Ended with result: 8.0
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 8.0 operands. Ended with result: 12.0
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 35.0 operand.Ended with result: 35.0 was pushed to stack
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 35.0 and 12.0 operands. Ended with result: 47.0
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 47.0 was taken from stack
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 2.0 was taken from stack
-
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation ebu
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eruo
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation eviov
-мар. 29, 2023 6:13:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: empty stack
-мар. 29, 2023 6:13:51 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with A and 12.0 operands. Ended with result: value 12.0 was defined as A
-
-мар. 29, 2023 6:13:59 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with B and 15.0 operands. Ended with result: value 15.0 was defined as B
-
-мар. 29, 2023 6:14:11 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 12.0 and 15.0 operands. Ended with result: 27.0
-
-мар. 29, 2023 6:14:24 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Minus with 12.0 and 15.0 operands. Ended with result: -3.0
-
-мар. 29, 2023 6:14:29 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: -3.0 was printed in console
-
-мар. 29, 2023 6:14:33 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: -3.0 was taken from stack
-
-мар. 29, 2023 6:14:37 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: 27.0 was printed in console
-
-мар. 29, 2023 6:14:45 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: 27.0 was taken from stack
-
-мар. 29, 2023 6:14:52 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty
-мар. 29, 2023 6:14:56 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: empty stack
-мар. 29, 2023 6:15:26 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Minus with 2.0 and 15.0 operands. Ended with result: -13.0
-
-мар. 29, 2023 6:15:31 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Division with 2.0 and 0.0 operands. Ended with result: Infinity
-
-мар. 29, 2023 6:15:39 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: Infinity was printed in console
-
-мар. 29, 2023 6:15:44 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Pop with no operands.Ended with result: Infinity was taken from stack
-
-мар. 29, 2023 6:15:47 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: -13.0 was printed in console
-
-мар. 29, 2023 6:16:04 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with EVBI and 1234.0 operands. Ended with result: value 1234.0 was defined as EVBI
-
-мар. 29, 2023 6:16:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Push with 1234.0 operand.Ended with result: 1234.0 was pushed to stack
-
-мар. 29, 2023 6:16:20 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: 1234.0 was printed in console
-
-мар. 29, 2023 6:50:48 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class [Ljava.lang.String; ([Ljava.lang.Object; and [Ljava.lang.String; are in module java.base of loader 'bootstrap')
-мар. 29, 2023 6:54:48 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+мая 03, 2023 1:35:21 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
 INFO: operation Help with no operands.Ended with result: Help was printed to console
 
-мар. 29, 2023 6:55:15 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Help with no operands.Ended with result: Help was printed to console
+мая 03, 2023 1:35:48 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Push with 5.0 operand.Ended with result: 5.0 was pushed to stack
 
-мар. 29, 2023 6:55:58 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Help with no operands.Ended with result: Help was printed to console
+мая 03, 2023 1:35:51 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Push with 3.0 operand.Ended with result: 3.0 was pushed to stack
 
-мар. 29, 2023 6:56:58 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation define
-мар. 29, 2023 6:58:34 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: no such operation define
-мар. 29, 2023 6:59:22 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: invalid number of arguments
-мар. 29, 2023 6:59:27 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
+мая 03, 2023 1:35:59 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: BinaryOperation with strategy Plus with 3.0 and 5.0 operands. Ended with result: 8.0
 
-мар. 29, 2023 6:59:32 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: stack is empty during parsing argument2
-мар. 29, 2023 6:59:42 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Plus with 4.0 and 2.0 operands. Ended with result: 6.0
+мая 03, 2023 1:36:04 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Print with no operands.Ended with result: 8.0 was printed in console
 
-мар. 29, 2023 6:59:44 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: 6.0 was printed in console
-
-мар. 29, 2023 7:00:57 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
-
-мар. 29, 2023 7:01:02 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+мая 03, 2023 1:36:13 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
 INFO: operation Push with 4.0 operand.Ended with result: 4.0 was pushed to stack
 
-мар. 29, 2023 7:01:08 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation SQRT with 4.0 operand.Ended with result: 2.0
+мая 03, 2023 1:36:17 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: BinaryOperation with strategy Division with 4.0 and 8.0 operands. Ended with result: 0.5
 
-мар. 29, 2023 7:01:10 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Print with no operands.Ended with result: 2.0 was printed in console
+мая 03, 2023 1:36:19 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Print with no operands.Ended with result: 0.5 was printed in console
 
-мар. 29, 2023 7:08:12 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Help with no operands.Ended with result: Help was printed to console
+мая 03, 2023 1:36:37 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Push with 2.0 operand.Ended with result: 2.0 was pushed to stack
 
-мар. 29, 2023 7:10:42 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Help with no operands.Ended with result: Help was printed to console
+мая 03, 2023 1:36:40 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: BinaryOperation with strategy Multiply with 2.0 and 0.5 operands. Ended with result: 1.0
 
-мар. 29, 2023 10:26:07 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
-INFO: operation Define with a and 4.0 operands. Ended with result: value 4.0 was defined as a
+мая 03, 2023 1:36:42 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Print with no operands.Ended with result: 1.0 was printed in console
 
-мар. 29, 2023 10:26:11 AM ru.nsu.Sirotkin.task1.calc.CalculatorModel start
-WARNING: empty stack
+мая 03, 2023 1:36:52 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Push with 0.5 operand.Ended with result: 0.5 was pushed to stack
+
+мая 03, 2023 1:36:56 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: BinaryOperation with strategy Minus with 0.5 and 1.0 operands. Ended with result: -0.5
+
+мая 03, 2023 1:36:58 PM ru.nsu.Sirotkin.task1.calc.CalculatorModel logOperation
+INFO: operation Print with no operands.Ended with result: -0.5 was printed in console
+

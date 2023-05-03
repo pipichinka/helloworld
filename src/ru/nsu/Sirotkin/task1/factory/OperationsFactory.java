@@ -3,6 +3,11 @@ package ru.nsu.Sirotkin.task1.factory;
 import ru.nsu.Sirotkin.task1.exceptions.FactoryConfigException;
 import ru.nsu.Sirotkin.task1.exceptions.OperationCreatingException;
 import ru.nsu.Sirotkin.task1.exceptions.OperationException;
+import ru.nsu.Sirotkin.task1.operations.BinaryOperation;
+import ru.nsu.Sirotkin.task1.strateges.StrategyDivision;
+import ru.nsu.Sirotkin.task1.strateges.StrategyMinus;
+import ru.nsu.Sirotkin.task1.strateges.StrategyMultiply;
+import ru.nsu.Sirotkin.task1.strateges.StrategyPlus;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -47,6 +52,23 @@ public class OperationsFactory {
 
 
     public Operation getOperation(String name) throws OperationException {
+
+        switch (name) {
+            case "+" -> {
+                return new BinaryOperation(new StrategyPlus());
+            }
+            case "-" -> {
+                return new BinaryOperation(new StrategyMinus());
+            }
+            case "*" -> {
+                return new BinaryOperation(new StrategyMultiply());
+            }
+            case "/" -> {
+                return new BinaryOperation(new StrategyDivision());
+            }
+        }
+
+
         String operationName = name.toUpperCase();
         if (classesMap.containsKey(operationName)){
             return classesMap.get(operationName);
